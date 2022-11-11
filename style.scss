@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: sans-serif;
+    
+}
+
+label,
+input{
+    display: block;
+    line-height: 30px;
+}
+
+
+
+#esquerda{
+    
+    width:25%;
+    background-color: maroon;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .foicadastrado{
+        color: green;
+        background-color: lightgreen;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        margin-top: 10px;
+        
+    }
+    
+    
+    .todoscampos{
+    
+        color: #FFF;
+        background-color: #FD7E14;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+        margin-top: 10px;
+    
+    }
+    #enviar{
+        padding: 5px;
+        cursor: pointer;
+    }
+}
+
+#direita{
+    width:75%;
+    background-color: brown;
+    // color: #fff;
+    
+    table{
+        background-color: lightblue;
+        width: 90%;
+        margin: auto;
+
+        tr{
+            line-height: 30px;
+
+        }
+        tr#hd{
+            font-weight: 700;
+            background-color: rgba(0, 0, 0, 0.6);
+            color: #fff;
+        }
+        a{
+            background-color: #fff;
+            color: black;
+            padding: 5px;
+            margin: 0 5px;
+            text-decoration: none;
+            transition-duration: 0.3s;
+
+            &:hover{
+                background-color: rgb(190, 174, 174);
+            }
+        }
+    }
+}
+#direita,
+#esquerda{
+    
+    padding: 10px;
+    height: 100vh;
+}
